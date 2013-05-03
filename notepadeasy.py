@@ -97,7 +97,7 @@ class  MainWindow(wx.Frame):
 			
 	def OnContact(self,event):
 		import webbrowser 
-		qq_url='http://wpa.qq.com/msgrd?v=3&uin=461829588&site=qq&menu=yes'
+		qq_url='http://wpa.qq.com/msgrd?v=3&uin=xxxxx&site=qq&menu=yes'
 		webbrowser.open_new_tab(qq_url)  
 		
 	def OnAbout(self,event):
